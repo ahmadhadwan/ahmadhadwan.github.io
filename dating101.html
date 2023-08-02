@@ -8,9 +8,24 @@
   </head>
   <body>
     <main>
-        <p>
-            <embed src="dating101.txt">
-        </p>
+        <div id="root">
+        </div>
+        <script>
+function load() {
+    var file = new XMLHttpRequest();
+    file.open("GET", "http://hadwan.org/dating101.txt", true);
+    file.onreadystatechange = function() {
+      if (file.readyState === 4) {  // Makes sure the document is ready to parse
+        if (file.status === 200) {  // Makes sure it's found the file
+          text = file.responseText;
+          document.getElementById("root").innerHTML = text;
+        }
+      }
+    }
+}
+
+window.onLoad = load();
+            </script>
     </main>
   </body>
 </html>
