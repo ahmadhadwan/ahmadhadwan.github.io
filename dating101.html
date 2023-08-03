@@ -16,13 +16,13 @@
   </head>
   <body>
     <main>
-        <!--<embed src="dating101.txt"></embed>-->
         <p id='quotes'></p>
+
         <script>
             jQuery.get('dating101.txt', function(data) {
                 var part1 = /\n/g;
-                var newc_data = data.replace(part1,"< br >") ;
-                document.getElementById('quotes').innerHTML = data;
+                var new_data = data.replace(part1,"<br>") ;
+                document.getElementById('quotes').innerHTML = new_data;
             });
         </script>
     </main>
