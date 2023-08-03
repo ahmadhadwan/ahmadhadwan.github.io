@@ -19,7 +19,7 @@
         <!--<embed src="dating101.txt"></embed>-->
         <p id='quotes'></p>
         <script>jQuery.get('dating101.txt', function(data) {
-    document.getElementById('quotes').textContent = data;
+    document.getElementById('quotes').innerHTML = data;
 });</script>
     </main>
   </body>
