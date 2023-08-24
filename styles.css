@@ -11,6 +11,10 @@ p {
     position: absolute;
 }
 
+img {
+    position: absolute;
+}
+
 .bubble {
     position: absolute;
     z-index: 2;
