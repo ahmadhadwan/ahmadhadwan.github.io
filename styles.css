@@ -1,17 +1,14 @@
 body {
-    background-color: #3A3B3C
+    background-color: #3A3B3C;
+    overflow: hidden;
 }
 
 p {
     color: white
 }
 
-#background-wrap {
-    bottom: 0;
-    left: 0;
+.bubble {
     position: absolute;
-    right: 0;
-    top: 0;
     z-index: 2;
 }
 
@@ -81,9 +78,9 @@ p {
     left: -5%;
     top: 5%;
 
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(2.4);
+    -moz-transform: scale(2.4);
+    transform: scale(2.4);
 }
 
 .x2 {
@@ -94,9 +91,9 @@ p {
     left: 5%;
     top: 80%;
 
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    transform: scale(0.8);
+    -webkit-transform: scale(1.6);
+    -moz-transform: scale(1.6);
+    transform: scale(1.6);
 }
 
 .x3 {
@@ -107,9 +104,9 @@ p {
     left: 10%;
     top: 40%;
 
-    -webkit-transform: scale(1.4);
-    -moz-transform: scale(1.4);
-    transform: scale(1.4);
+    -webkit-transform: scale(2.8);
+    -moz-transform: scale(2.8);
+    transform: scale(2.8);
 }
 
 .x4 {
@@ -120,9 +117,9 @@ p {
     left: 20%;
     top: 0;
 
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .x5 {
@@ -133,9 +130,9 @@ p {
     left: 30%;
     top: 50%;
 
-    -webkit-transform: scale(1.0);
-    -moz-transform: scale(1.0);
-    transform: scale(1.0);
+    -webkit-transform: scale(2.0);
+    -moz-transform: scale(2.0);
+    transform: scale(2.0);
 }
 
 .x6 {
@@ -146,9 +143,9 @@ p {
     left: 50%;
     top: 0;
 
-    -webkit-transform: scale(1.6);
-    -moz-transform: scale(1.6);
-    transform: scale(1.6);
+    -webkit-transform: scale(3.2);
+    -moz-transform: scale(3.2);
+    transform: scale(3.2);
 }
 
 .x7 {
@@ -159,9 +156,9 @@ p {
     left: 65%;
     top: 70%;
 
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    transform: scale(0.8);
+    -webkit-transform: scale(1.6);
+    -moz-transform: scale(1.6);
+    transform: scale(1.6);
 }
 
 .x8 {
@@ -172,9 +169,9 @@ p {
     left: 80%;
     top: 10%;
 
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .x9 {
@@ -185,9 +182,9 @@ p {
     left: 90%;
     top: 50%;
 
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(2.4);
+    -moz-transform: scale(2.4);
+    transform: scale(2.4);
 }
 
 .x10 {
@@ -198,7 +195,7 @@ p {
     left: 80%;
     top: 80%;
 
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
 }
